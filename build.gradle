@@ -15,7 +15,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.h2database/h2
     implementation group: 'com.h2database', name: 'h2', version: '2.2.220'
     implementation 'com.google.code.gson:gson:2.8.8'
-    implementation 'org.flywaydb:flyway-core:7.10.0'
+    // https://mvnrepository.com/artifact/org.flywaydb/flyway-core
+    implementation group: 'org.flywaydb', name: 'flyway-core', version: '9.21.2'
+
 
 }
 

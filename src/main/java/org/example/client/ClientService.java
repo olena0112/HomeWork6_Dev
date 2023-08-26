@@ -1,4 +1,7 @@
-package org.example;
+package org.example.client;
+import org.example.exception.InvalidDataException;
+import org.example.storage.Database;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
